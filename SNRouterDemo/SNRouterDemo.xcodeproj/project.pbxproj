@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3A217D1EEE78B200A2B68E /* SATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A217C1EEE78B200A2B68E /* SATableViewController.m */; };
+		DF3A21841EEE81F000A2B68E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A21831EEE81F000A2B68E /* DetailViewController.m */; };
+		DF3A21871EEE822C00A2B68E /* PeoplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A21861EEE822C00A2B68E /* PeoplesViewController.m */; };
+		DF3A218A1EEE840400A2B68E /* SNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A21891EEE840400A2B68E /* SNBaseViewController.m */; };
+		DFDACFC41EEA4FB5004EB6D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFC31EEA4FB5004EB6D1 /* main.m */; };
+		DFDACFC71EEA4FB5004EB6D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFC61EEA4FB5004EB6D1 /* AppDelegate.m */; };
+		DFDACFCD1EEA4FB5004EB6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDACFCB1EEA4FB5004EB6D1 /* Main.storyboard */; };
+		DFDACFCF1EEA4FB5004EB6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDACFCE1EEA4FB5004EB6D1 /* Assets.xcassets */; };
+		DFDACFD21EEA4FB5004EB6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDACFD01EEA4FB5004EB6D1 /* LaunchScreen.storyboard */; };
+		DFDACFDD1EEA4FB5004EB6D1 /* SNRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFDC1EEA4FB5004EB6D1 /* SNRouterDemoTests.m */; };
+		DFDACFE81EEA4FB5004EB6D1 /* SNRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFE71EEA4FB5004EB6D1 /* SNRouterDemoUITests.m */; };
+		DFDACFFC1EEA4FCA004EB6D1 /* NSString+QDURLParams.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFF71EEA4FCA004EB6D1 /* NSString+QDURLParams.m */; };
+		DFDACFFD1EEA4FCA004EB6D1 /* NSURL+QDParams.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFF91EEA4FCA004EB6D1 /* NSURL+QDParams.m */; };
+		DFDACFFE1EEA4FCA004EB6D1 /* SNRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACFFB1EEA4FCA004EB6D1 /* SNRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDACFD91EEA4FB5004EB6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDACFB71EEA4FB5004EB6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDACFBE1EEA4FB5004EB6D1;
+			remoteInfo = SNRouterDemo;
+		};
+		DFDACFE41EEA4FB5004EB6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDACFB71EEA4FB5004EB6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDACFBE1EEA4FB5004EB6D1;
+			remoteInfo = SNRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3A217B1EEE78B200A2B68E /* SATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATableViewController.h; sourceTree = "<group>"; };
+		DF3A217C1EEE78B200A2B68E /* SATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATableViewController.m; sourceTree = "<group>"; };
+		DF3A21811EEE803E00A2B68E /* DemoRouterMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoRouterMap.h; sourceTree = "<group>"; };
+		DF3A21821EEE81F000A2B68E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DF3A21831EEE81F000A2B68E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DF3A21851EEE822C00A2B68E /* PeoplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplesViewController.h; sourceTree = "<group>"; };
+		DF3A21861EEE822C00A2B68E /* PeoplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplesViewController.m; sourceTree = "<group>"; };
+		DF3A21881EEE840400A2B68E /* SNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBaseViewController.h; sourceTree = "<group>"; };
+		DF3A21891EEE840400A2B68E /* SNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBaseViewController.m; sourceTree = "<group>"; };
+		DFDACFBF1EEA4FB5004EB6D1 /* SNRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDACFC31EEA4FB5004EB6D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFDACFC51EEA4FB5004EB6D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFDACFC61EEA4FB5004EB6D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFDACFCC1EEA4FB5004EB6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFDACFCE1EEA4FB5004EB6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFDACFD11EEA4FB5004EB6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFDACFD31EEA4FB5004EB6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDACFD81EEA4FB5004EB6D1 /* SNRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDACFDC1EEA4FB5004EB6D1 /* SNRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNRouterDemoTests.m; sourceTree = "<group>"; };
+		DFDACFDE1EEA4FB5004EB6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDACFE31EEA4FB5004EB6D1 /* SNRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDACFE71EEA4FB5004EB6D1 /* SNRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNRouterDemoUITests.m; sourceTree = "<group>"; };
+		DFDACFE91EEA4FB5004EB6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDACFF61EEA4FCA004EB6D1 /* NSString+QDURLParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QDURLParams.h"; sourceTree = "<group>"; };
+		DFDACFF71EEA4FCA004EB6D1 /* NSString+QDURLParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QDURLParams.m"; sourceTree = "<group>"; };
+		DFDACFF81EEA4FCA004EB6D1 /* NSURL+QDParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QDParams.h"; sourceTree = "<group>"; };
+		DFDACFF91EEA4FCA004EB6D1 /* NSURL+QDParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QDParams.m"; sourceTree = "<group>"; };
+		DFDACFFA1EEA4FCA004EB6D1 /* SNRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRouter.h; sourceTree = "<group>"; };
+		DFDACFFB1EEA4FCA004EB6D1 /* SNRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRouter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDACFBC1EEA4FB5004EB6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFD51EEA4FB5004EB6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFE01EEA4FB5004EB6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDACFB61EEA4FB5004EB6D1 = {
+			isa = PBXGroup;
+			children = (
+				DFDACFC11EEA4FB5004EB6D1 /* SNRouterDemo */,
+				DFDACFDB1EEA4FB5004EB6D1 /* SNRouterDemoTests */,
+				DFDACFE61EEA4FB5004EB6D1 /* SNRouterDemoUITests */,
+				DFDACFC01EEA4FB5004EB6D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDACFC01EEA4FB5004EB6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFBF1EEA4FB5004EB6D1 /* SNRouterDemo.app */,
+				DFDACFD81EEA4FB5004EB6D1 /* SNRouterDemoTests.xctest */,
+				DFDACFE31EEA4FB5004EB6D1 /* SNRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDACFC11EEA4FB5004EB6D1 /* SNRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFF51EEA4FCA004EB6D1 /* Router */,
+				DFDACFC51EEA4FB5004EB6D1 /* AppDelegate.h */,
+				DFDACFC61EEA4FB5004EB6D1 /* AppDelegate.m */,
+				DF3A217B1EEE78B200A2B68E /* SATableViewController.h */,
+				DF3A217C1EEE78B200A2B68E /* SATableViewController.m */,
+				DF3A21811EEE803E00A2B68E /* DemoRouterMap.h */,
+				DF3A21881EEE840400A2B68E /* SNBaseViewController.h */,
+				DF3A21891EEE840400A2B68E /* SNBaseViewController.m */,
+				DF3A21821EEE81F000A2B68E /* DetailViewController.h */,
+				DF3A21831EEE81F000A2B68E /* DetailViewController.m */,
+				DF3A21851EEE822C00A2B68E /* PeoplesViewController.h */,
+				DF3A21861EEE822C00A2B68E /* PeoplesViewController.m */,
+				DFDACFCB1EEA4FB5004EB6D1 /* Main.storyboard */,
+				DFDACFCE1EEA4FB5004EB6D1 /* Assets.xcassets */,
+				DFDACFD01EEA4FB5004EB6D1 /* LaunchScreen.storyboard */,
+				DFDACFD31EEA4FB5004EB6D1 /* Info.plist */,
+				DFDACFC21EEA4FB5004EB6D1 /* Supporting Files */,
+			);
+			path = SNRouterDemo;
+			sourceTree = "<group>";
+		};
+		DFDACFC21EEA4FB5004EB6D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFC31EEA4FB5004EB6D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFDACFDB1EEA4FB5004EB6D1 /* SNRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFDC1EEA4FB5004EB6D1 /* SNRouterDemoTests.m */,
+				DFDACFDE1EEA4FB5004EB6D1 /* Info.plist */,
+			);
+			path = SNRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		DFDACFE61EEA4FB5004EB6D1 /* SNRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFE71EEA4FB5004EB6D1 /* SNRouterDemoUITests.m */,
+				DFDACFE91EEA4FB5004EB6D1 /* Info.plist */,
+			);
+			path = SNRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		DFDACFF51EEA4FCA004EB6D1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACFF61EEA4FCA004EB6D1 /* NSString+QDURLParams.h */,
+				DFDACFF71EEA4FCA004EB6D1 /* NSString+QDURLParams.m */,
+				DFDACFF81EEA4FCA004EB6D1 /* NSURL+QDParams.h */,
+				DFDACFF91EEA4FCA004EB6D1 /* NSURL+QDParams.m */,
+				DFDACFFA1EEA4FCA004EB6D1 /* SNRouter.h */,
+				DFDACFFB1EEA4FCA004EB6D1 /* SNRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDACFBE1EEA4FB5004EB6D1 /* SNRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDACFEC1EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemo" */;
+			buildPhases = (
+				DFDACFBB1EEA4FB5004EB6D1 /* Sources */,
+				DFDACFBC1EEA4FB5004EB6D1 /* Frameworks */,
+				DFDACFBD1EEA4FB5004EB6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNRouterDemo;
+			productName = SNRouterDemo;
+			productReference = DFDACFBF1EEA4FB5004EB6D1 /* SNRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDACFD71EEA4FB5004EB6D1 /* SNRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDACFEF1EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemoTests" */;
+			buildPhases = (
+				DFDACFD41EEA4FB5004EB6D1 /* Sources */,
+				DFDACFD51EEA4FB5004EB6D1 /* Frameworks */,
+				DFDACFD61EEA4FB5004EB6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDACFDA1EEA4FB5004EB6D1 /* PBXTargetDependency */,
+			);
+			name = SNRouterDemoTests;
+			productName = SNRouterDemoTests;
+			productReference = DFDACFD81EEA4FB5004EB6D1 /* SNRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFDACFE21EEA4FB5004EB6D1 /* SNRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDACFF21EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemoUITests" */;
+			buildPhases = (
+				DFDACFDF1EEA4FB5004EB6D1 /* Sources */,
+				DFDACFE01EEA4FB5004EB6D1 /* Frameworks */,
+				DFDACFE11EEA4FB5004EB6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDACFE51EEA4FB5004EB6D1 /* PBXTargetDependency */,
+			);
+			name = SNRouterDemoUITests;
+			productName = SNRouterDemoUITests;
+			productReference = DFDACFE31EEA4FB5004EB6D1 /* SNRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDACFB71EEA4FB5004EB6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					DFDACFBE1EEA4FB5004EB6D1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFDACFD71EEA4FB5004EB6D1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFDACFBE1EEA4FB5004EB6D1;
+					};
+					DFDACFE21EEA4FB5004EB6D1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFDACFBE1EEA4FB5004EB6D1;
+					};
+				};
+			};
+			buildConfigurationList = DFDACFBA1EEA4FB5004EB6D1 /* Build configuration list for PBXProject "SNRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDACFB61EEA4FB5004EB6D1;
+			productRefGroup = DFDACFC01EEA4FB5004EB6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDACFBE1EEA4FB5004EB6D1 /* SNRouterDemo */,
+				DFDACFD71EEA4FB5004EB6D1 /* SNRouterDemoTests */,
+				DFDACFE21EEA4FB5004EB6D1 /* SNRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDACFBD1EEA4FB5004EB6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDACFD21EEA4FB5004EB6D1 /* LaunchScreen.storyboard in Resources */,
+				DFDACFCF1EEA4FB5004EB6D1 /* Assets.xcassets in Resources */,
+				DFDACFCD1EEA4FB5004EB6D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFD61EEA4FB5004EB6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFE11EEA4FB5004EB6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDACFBB1EEA4FB5004EB6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3A217D1EEE78B200A2B68E /* SATableViewController.m in Sources */,
+				DF3A21871EEE822C00A2B68E /* PeoplesViewController.m in Sources */,
+				DFDACFFC1EEA4FCA004EB6D1 /* NSString+QDURLParams.m in Sources */,
+				DFDACFC71EEA4FB5004EB6D1 /* AppDelegate.m in Sources */,
+				DFDACFC41EEA4FB5004EB6D1 /* main.m in Sources */,
+				DF3A218A1EEE840400A2B68E /* SNBaseViewController.m in Sources */,
+				DFDACFFD1EEA4FCA004EB6D1 /* NSURL+QDParams.m in Sources */,
+				DFDACFFE1EEA4FCA004EB6D1 /* SNRouter.m in Sources */,
+				DF3A21841EEE81F000A2B68E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFD41EEA4FB5004EB6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDACFDD1EEA4FB5004EB6D1 /* SNRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDACFDF1EEA4FB5004EB6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDACFE81EEA4FB5004EB6D1 /* SNRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDACFDA1EEA4FB5004EB6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDACFBE1EEA4FB5004EB6D1 /* SNRouterDemo */;
+			targetProxy = DFDACFD91EEA4FB5004EB6D1 /* PBXContainerItemProxy */;
+		};
+		DFDACFE51EEA4FB5004EB6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDACFBE1EEA4FB5004EB6D1 /* SNRouterDemo */;
+			targetProxy = DFDACFE41EEA4FB5004EB6D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFDACFCB1EEA4FB5004EB6D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDACFCC1EEA4FB5004EB6D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFDACFD01EEA4FB5004EB6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDACFD11EEA4FB5004EB6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDACFEA1EEA4FB5004EB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFDACFEB1EEA4FB5004EB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDACFED1EEA4FB5004EB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFDACFEE1EEA4FB5004EB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFDACFF01EEA4FB5004EB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SNRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNRouterDemo.app/SNRouterDemo";
+			};
+			name = Debug;
+		};
+		DFDACFF11EEA4FB5004EB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SNRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNRouterDemo.app/SNRouterDemo";
+			};
+			name = Release;
+		};
+		DFDACFF31EEA4FB5004EB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNRouterDemo;
+			};
+			name = Debug;
+		};
+		DFDACFF41EEA4FB5004EB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SNRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDACFBA1EEA4FB5004EB6D1 /* Build configuration list for PBXProject "SNRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDACFEA1EEA4FB5004EB6D1 /* Debug */,
+				DFDACFEB1EEA4FB5004EB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDACFEC1EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDACFED1EEA4FB5004EB6D1 /* Debug */,
+				DFDACFEE1EEA4FB5004EB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDACFEF1EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDACFF01EEA4FB5004EB6D1 /* Debug */,
+				DFDACFF11EEA4FB5004EB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDACFF21EEA4FB5004EB6D1 /* Build configuration list for PBXNativeTarget "SNRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDACFF31EEA4FB5004EB6D1 /* Debug */,
+				DFDACFF41EEA4FB5004EB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDACFB71EEA4FB5004EB6D1 /* Project object */;
+}
