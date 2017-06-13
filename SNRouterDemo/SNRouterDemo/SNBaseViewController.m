@@ -24,7 +24,13 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = [UIColor whiteColor];
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(10, self.presentationController ? 30 : 74, self.view.frame.size.width - 20, 0)];
+    
+    UILabel *remind = [[UILabel alloc] initWithFrame:CGRectMake(10, 30, self.view.frame.size.width - 20, 0)];
+    remind.text = @"轻触屏幕返回";
+    [remind sizeToFit];
+    [self.view addSubview:remind];
+    
+    _label = [[UILabel alloc] initWithFrame:CGRectMake(10, 74, self.view.frame.size.width - 20, 0)];
     _label.numberOfLines = 0;
     _label.text = self.displayString;
     [_label sizeToFit];
