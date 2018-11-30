@@ -24,9 +24,9 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    CGFloat topR = 30;
-    UILabel *remind = [[UILabel alloc] initWithFrame:CGRectMake(10, topR, self.view.frame.size.width - 20, 0)];
+
+    //commit
+    UILabel *remind = [[UILabel alloc] initWithFrame:CGRectMake(10, 30, self.view.frame.size.width - 20, 0)];
     remind.text = @"轻触屏幕返回";
     [remind sizeToFit];
     [self.view addSubview:remind];
